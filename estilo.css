@@ -1,0 +1,28 @@
+body {background: black;}
+body {color: white;}
+body {font-size: medium;}
+h3 {text-decoration: underline;}
+
+h1 {text-align: center;}
+body {text-align: justify;}
+img {
+	width: 40%;
+	height: 40%;}
+header {background: pink;
+color: black;}
+section {background: purple;
+color: black;}
+#CUATRO {background: pink;
+color: black;}
+div {width: 200;
+height: 100;
+padding: 30;
+border-radius: 40;
+}
+.icono {
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	z-index: ;
+	width: 80px;
+}
