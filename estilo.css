@@ -1,28 +1,60 @@
-body {background: black;}
 body {color: white;}
-body {font-size: medium;}
+body {font-size: medium;
+background: black;}
 h3 {text-decoration: underline;}
 
 h1 {text-align: center;}
 body {text-align: justify;}
-img {
-	width: 40%;
+img {width: 40%;
 	height: 40%;}
+
 header {background: pink;
-color: black;}
+color: darkviolet;}
+
+nav {background: darkorange;
+color: red;
+margin: 2%;}
+
 section {background: purple;
 color: black;}
-#CUATRO {background: pink;
-color: black;}
-div {width: 200;
-height: 100;
-padding: 30;
-border-radius: 40;
-}
+
+footer {margin: 1%;
+background: grey;
+float: left;}
+
+#CUATRO {background: palevioletred;
+width: 48%;
+height: 370px;
+float: left;
+margin: 1%;
+overflow: auto;
+color: darkblue;
+text-align: center;}
+
+#PAELLA {float: right;
+width: 48%;
+margin: 1%;
+height: 370px;
+background: red;
+overflow: auto;}
+
+
 .icono {
 	position: fixed;
 	right: 5px;
 	bottom: 5px;
 	z-index: ;
-	width: 80px;
-}
+	width: 80px;}
+
+.ingredientes:hover {font-size:  xx-large;}
+.elaboracion:hover {background: orangered;}
+.titulo:hover {color: red}
+.recetass:hover {font-weight: 300;}
+.FOTOPAELLA:hover { border-radius: 50%; }
+.enlace1:hover {color: white;}
+.enlace2:hover {background: blue;}
+.enlace3:hover {font-size: xx-small;}
+.enlace4:hover {color: pink;}
+.enlace5:hover {background: whitesmoke;}
+
+nav ul li {display: inline-block;}
